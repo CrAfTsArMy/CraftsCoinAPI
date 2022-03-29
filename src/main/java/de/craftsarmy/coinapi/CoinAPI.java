@@ -35,31 +35,24 @@ public final class CoinAPI extends JavaPlugin {
     public AbstractConfig getCoinConfig() {
         return config;
     }
-
     public void setCoinConfig(AbstractConfig config) {
         this.config = config;
     }
-
     public AbstractCoinHandler getCoinHandler() {
         return coinHandler;
     }
-
     public void setCoinHandler(AbstractCoinHandler coinHandler) {
         this.coinHandler = coinHandler;
     }
-
     public AbstractEventHandler getEventHandler() {
         return eventHandler;
     }
-
     public void setEventHandler(AbstractEventHandler eventHandler) {
         this.eventHandler = eventHandler;
     }
-
     public String makePretty(long amount) {
         return String.format("%,d", amount);
     }
-
     public static CoinAPI api() {
         return instance;
     }

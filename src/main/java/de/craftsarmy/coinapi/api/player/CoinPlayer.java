@@ -17,15 +17,12 @@ public final class CoinPlayer {
     public boolean isOnline() {
         return player.isOnline();
     }
-
     public Player getAsPlayer() {
         return player.getPlayer();
     }
-
     public OfflinePlayer getPlayer() {
         return player;
     }
-
     private static final ConcurrentHashMap<String, CoinPlayer> players = new ConcurrentHashMap<>();
 
     public static CoinPlayer name(String name) {
