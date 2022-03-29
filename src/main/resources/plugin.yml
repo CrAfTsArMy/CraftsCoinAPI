@@ -1,0 +1,8 @@
+name: CoinAPI
+version: '${project.version}'
+main: de.craftsarmy.coinapi.CoinAPI
+api-version: 1.18
+load: STARTUP
+authors: [ CrAfTs_ArMy ]
+description: Die einfache Coin API fuer jederman
+website: https://web1.craftsblock.de
